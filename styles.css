@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #d4d4d4;
+    flex-direction: row;
+}
+
+img {
+    cursor: pointer;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: rgb(49, 100, 254);
+}
+
+.bar {
+    background: #181818;
+    width: 50px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    border-right: 0.1px solid #707070;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    border-right: 0.1px solid #707070;
+    min-width: 130px;
+    width: 15.5%;
+    background: #181818;
+    padding: 0px;
+    margin-top: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    box-sizing: border-box;
+}
+
+.file-display {
+    width: 100%;
+    height: 100%;
+    background: #1F1F1F;
+    padding: 0px;
+    margin: 0px;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    background: #181818;
+    box-sizing: border-box;
+}
+
+.your-element::-webkit-scrollbar {
+    display: none;
+}
+
+.tab {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: fit-content;
+    background: #a21d1d;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.1px solid #707070;
+    border-bottom: 0.1px solid #707070;
+    box-sizing: border-box;
+    gap: 3px;
+    background: #181818;
+}
+
+.tab.active {
+    background: #1F1F1F;
+    border-bottom: 0.0px solid #707070;
+}
+
+.delete_button {
+    width: 16px;
+    height: 16px;
+    opacity: 0%;
+}
+
+.delete_button:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.folder {
+    cursor: pointer;
+    justify-content: left;
+    width: 100%;
+}
+
+.file, .folder-header {
+    cursor: pointer;
+    padding: 2.5px;
+    box-sizing: border-box;
+    justify-content: left;
+}
+
+.folder-content {
+    margin-left: 12px;
+    justify-content: left;
+}
+
+.folder-header:hover {
+    background: #363636;
+}
+
+.file:hover {
+    background: #363636;
+}
+
+.folder .caret {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    transition: transform 0.2s ease;
+    background-image: url('./Assets/Images/folderDropDown.svg');
+    background-size: contain;
+    transform: rotate(0deg);
+}
+
+.caret {
+    margin-right: 3px;
+}
+
+.folder.open .caret {
+    transform: rotate(90deg);
+}
+
+.hidden {
+    display: none;
+}
