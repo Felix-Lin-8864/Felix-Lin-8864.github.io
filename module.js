@@ -6,7 +6,6 @@ const IMAGE_PATH = "./Assets/Images/";
 export function toggleSidebar(event) {
     event.stopPropagation();
     document.getElementById("sidebar").classList.toggle("hidden");
-    document.getElementById("file-display").style.width = "100%";
 }
 
 export function toggleFolder(element, event) {
