@@ -31,15 +31,23 @@ function logError(err, fileName) {
     display.innerHTML = `<h2>Error: cannot load ${fileName}`;
 }
 
-function displayMarkdown(display, fileName) {
+function displayMarkdown(display, filePath) {
+    display.classList.add("d_md");
     display.style.paddingLeft = "10px";
     display.style.paddingRight = "10px";
-    fetch(fileName)
+    fetch(filePath)
         .then(response => response.text())
         .then(md_text => {
             const content = marked.parse(md_text);
-            display.innerHTML = `<div>${content}</div>`;
-        }).catch(err => logError(err, fileName));
+            // add extra padding at the bottom
+            display.innerHTML = `<div>${content}<br><br></div>`;
+        }).catch(err => logError(err, filePath));
+}
+
+function displayPDF(display, filePath) {
+    display.classList.remove("d_md");
+    display.style.padding = "0px";
+    display.innerHTML = `<iframe src="${filePath}"></iframe>`;
 }
 
 function createDeleteTab(newTab) {
@@ -51,7 +59,7 @@ function createDeleteTab(newTab) {
         event.stopPropagation();
         tabs.removeChild(newTab);
         if (tabs.children.length == 0) {
-            document.getElementById('file-display').innerHTML = "";
+            document.getElementById('file-display').innerHTML = "<h2>Open a file to view contents</h2>";
         } else {
             openFile(tabs.children[tabs.children.length - 1].innerText, event);
         }
@@ -94,11 +102,11 @@ export function openFile(fileName, event) {
     if (fileName.endsWith(".md")) {
         displayMarkdown(display, filePath);
     } else if (fileName.endsWith(".pdf")) {
-        display.style.padding = "0px";
-        display.innerHTML = `<iframe src="${filePath}"></iframe>`;
+        displayPDF(display, filePath);
     } else {
         // *** NOTE: should never occur once all resources uploaded
         display.innerHTML = `<h2>Error: "${filePath}" is not a supported file type</h2>`;
+        console.error(display.innerHTML);
     }
 
     createTab(fileName);

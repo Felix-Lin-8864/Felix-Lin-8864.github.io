@@ -33,7 +33,7 @@ a {
 
 .sidebar {
     border-right: 0.1px solid #707070;
-    min-width: 130px;
+    min-width: 150px;
     width: 15.5%;
     background: #181818;
     padding: 0px;
@@ -61,8 +61,12 @@ a {
     background: #1F1F1F;
     padding: 0px;
     margin: 0px;
-    overflow-y: hidden;
     box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+.file-display.d_md {
+    overflow-y: auto;
 }
 
 .tabs {
@@ -118,13 +122,13 @@ a {
 
 .file, .folder-header {
     cursor: pointer;
-    padding: 2.5px;
+    padding: 4px;
     box-sizing: border-box;
     justify-content: left;
 }
 
 .folder-content {
-    margin-left: 12px;
+    margin-left: 16px;
     justify-content: left;
 }
 
