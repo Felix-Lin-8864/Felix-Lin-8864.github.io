@@ -1,7 +1,7 @@
 import { marked } from "marked";
 
-const RESOURCE_PATH = "./Assets/Resources/";
-const IMAGE_PATH = "./Assets/Images/";
+const RESOURCE_PATH = "./assets/Resources/";
+const IMAGE_PATH = "./assets/Images/";
 
 export function toggleSidebar(event) {
     event.stopPropagation();

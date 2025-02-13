@@ -1,4 +1,4 @@
-import { toggleFolder, toggleSidebar, openFile } from "./module.js";
+import { toggleFolder, toggleSidebar, openFile } from "./functions.js";
 
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("explore").addEventListener("click", function(event) {
