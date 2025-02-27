@@ -1,17 +1,15 @@
 # Welcome
-## Hi
-### How're ya
 
-I'm Felix, a UNSW Compsci student
+Hi, I'm Felix.
 
-I currently work as an office assistant and food service assistant at a nursing home. I have experience doing a lot of different jobs, from setting up events/conventions to private English tutoring to your friendly neighbourhood lollipop man!
+I currently study compsci at UNSW, and work part-time as an office assistant and food service assistant at a nursing home. I have worked many jobs in the past (from setting up events/conventions to private HSC English tutoring to lollipop man) and enjoy learning new things while doing so, but my focus is now set on starting a career in industry.
 
-I enjoy the puzzle-like nature of coding and design, and my current favourite language is Rust; Memory safety? Type safety? Zero-cost abstractions with all the control?? An (unofficial) crab icon 🦀🦀🦀??? RustDoc???? Fearless concurrency????? Macros?????? 
+What I enjoy most about programming and design is their logical, puzzle-like nature, and my favourite language is Rust; I like its straight-forward, structured and 'governed' philosophy and system (the performance, and static memory and type safety guarantees definitely don't hurt though). 
 
-My favourite project so far is probably [SokobanInator](https://github.com/Felix-Lin-8864/sokoban-inator/tree/main), though I play [AnagramInator](https://github.com/Felix-Lin-8864/Anagrams/tree/main) more (I used to spam people with GamePigeon anagrams).
+Of my projects, my favourite is [AnagramInator](https://github.com/Felix-Lin-8864/Anagrams); an anagrams-based web game. However, the ones I found most interesting to develop were [SokobanInator](https://github.com/Felix-Lin-8864/sokoban-inator) (an Entity Component System game) and [WordChainInator](https://github.com/Felix-Lin-8864/word-chain-game/) (an online multiplayer word game using web sockets).
 
-This portfolio of mine showcases my projects, study resources and unmatched sense of humour in a familiar format!
+Please explore the rest of my portfolio, and check out my projects and study resources!
 
-Quick tip: hover over the rhs of tabs to see the delete button.
+**Quick tip:** hover over the rhs of open tabs to see the delete button.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](www.linkedin.com/in/felix-lin-a44301261) [![LeetCode](https://img.shields.io/badge/LeetCode-grey?logo=leetcode&logoColor=white)](https://leetcode.com/u/felixlin88/) [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/Felix-Lin-8864/)
