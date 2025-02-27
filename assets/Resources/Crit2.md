@@ -1,4 +1,4 @@
-I wasn't lying this time, it is absolutely critical that you watch these in one sitting without breaks:
+It is absolutely critical that you watch these for your own education:
 - [Galapagos Islands](https://www.youtube.com/watch?v=Z3wNjM1Dnsc&pp=ygUWZ2FsYXBhZ29zIGlzbGFuZHMgZG9jbw%3D%3D)
 - [Into the Abyss](https://www.youtube.com/watch?v=VlcI2Vu5uV4&pp=ygUUZGVlcCBzZWEgZG9jdW1lbnRhcnk%3D)
 - [Into the Midnight Zone](https://www.youtube.com/watch?v=o_Zs8UdCArM&pp=ygUUZGVlcCBzZWEgZG9jdW1lbnRhcnk%3D)
@@ -15,5 +15,3 @@ I wasn't lying this time, it is absolutely critical that you watch these in one 
 - [Meerkats](https://www.youtube.com/watch?v=kqa3hW3R_EY&pp=ygUMbWVlcmthdCBkb2Nv)
 - [Creepy-Crawlies](https://www.youtube.com/watch?v=uUsb2C28-ZA&pp=ygULaW5zZWN0IGRvY28%3D)
 - [Jumping Spider (oddly cute)](https://www.youtube.com/watch?v=uv3XLR2YzKk&pp=ygULaW5zZWN0IGRvY28%3D)
-
-# DOLPHINS ARE EVIL BTW
